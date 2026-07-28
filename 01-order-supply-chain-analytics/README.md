@@ -49,6 +49,32 @@ The proposed solution should therefore provide both:
 
 - An executive-level summary for decision-makers
 - A detailed operational view for teams responsible for follow-up
+## RACI Matrix
+
+RACI defines how responsibilities are assigned across key activities:
+
+- **R — Responsible:** Performs the work
+- **A — Accountable:** Owns the final outcome
+- **C — Consulted:** Provides input before a decision or action
+- **I — Informed:** Receives updates
+
+| Activity | Sales | Supply Planning | Logistics | Customer Operations | Operations Manager |
+|---|---|---|---|---|---|
+| Monitor order status and delivery risks | I | C | C | R | A |
+| Validate supply-related risk reasons | I | R | C | C | A |
+| Validate shipment and transportation status | I | C | R | C | A |
+| Prioritize high-impact customer orders | C | C | C | R | A |
+| Assign and track follow-up actions | I | C | C | R | A |
+| Communicate delivery risks to customers | R | C | C | C | A |
+| Approve major escalation or exception handling | C | C | C | R | A |
+| Review operational KPIs and recurring issues | I | C | C | R | A |
+## Responsibility Design Notes
+
+The matrix is designed to avoid unclear ownership and duplicated follow-up.
+
+Customer Operations is responsible for consolidating information and coordinating daily actions, while the Operations Manager remains accountable for overall service performance and major escalations.
+
+Supply Planning and Logistics are responsible for validating risks within their respective areas. Sales owns customer communication but should base updates on confirmed operational information.
 ## Business Questions
 
 - Which orders are at risk of late delivery?
