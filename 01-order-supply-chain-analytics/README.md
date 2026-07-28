@@ -31,15 +31,24 @@ The project aims to design a structured order-risk monitoring approach that impr
 
 ## Success Metrics
 
-The proposed solution will be evaluated using the following metrics:
 
-- Percentage of at-risk orders identified before the committed delivery date
-- On-time delivery rate
-- Number of overdue orders
-- Average delay duration
-- Average time required to prepare the operational report
-- Percentage of orders with complete and consistent status information
-- Number of high-risk orders without a documented action owner
+| Stakeholder | Primary Responsibilities | Key Needs | Typical Decisions |
+|---|---|---|---|
+| Sales | Manage customer expectations and commercial relationships | Clear delivery status, customer impact, and escalation updates | Whether to communicate delays or renegotiate commitments |
+| Supply Planning | Balance demand, inventory, and production availability | Demand priorities, supply gaps, and allocation risks | How to allocate limited supply and adjust planning priorities |
+| Logistics | Coordinate shipment execution and transportation | Shipment readiness, carrier status, and logistics exceptions | Whether to expedite, reroute, or escalate a shipment |
+| Customer Operations | Monitor orders and coordinate cross-functional follow-up | Consolidated order status, risk reasons, and action owners | Which orders require immediate follow-up |
+| Operations Manager | Oversee service performance and operational risk | KPI trends, major risks, unresolved issues, and team workload | Where to prioritize resources and escalate systemic problems |
+## Stakeholder Analysis
+
+Different stakeholders require different levels of detail.
+
+Sales needs concise customer-impact information, while supply planning and logistics require more detailed operational data. Operations managers need aggregated KPIs, major risks, and unresolved actions.
+
+The proposed solution should therefore provide both:
+
+- An executive-level summary for decision-makers
+- A detailed operational view for teams responsible for follow-up
 ## Business Questions
 
 - Which orders are at risk of late delivery?
