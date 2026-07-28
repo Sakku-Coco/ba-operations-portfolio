@@ -6,8 +6,21 @@ In progress
 
 ## Project Overview
 
-This project analyzes an order fulfillment process to identify delivery risks, operational bottlenecks, and opportunities to improve order visibility.
 
+This project demonstrates how business analysis, process improvement, and data visualization can be used to improve order visibility and proactively manage delivery risks.
+## Business Scenario
+
+A regional operations team manages customer orders across multiple APAC markets.
+
+The existing process relies on several disconnected reports and manual follow-ups. As a result, stakeholders often identify delivery risks too late, order status updates are inconsistent, and operations teams spend significant time consolidating information from different sources.
+
+The objective of this project is to design an order-risk monitoring solution that helps operations teams:
+
+- Identify potentially delayed orders earlier
+- Understand the main causes of delivery risk
+- Prioritize high-impact cases
+- Improve communication between sales, supply planning, logistics, and customer operations
+- Reduce manual reporting effort
 ## Business Questions
 
 - Which orders are at risk of late delivery?
